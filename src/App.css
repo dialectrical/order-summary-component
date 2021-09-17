@@ -15,7 +15,6 @@ h2 {
   font-weight: 900;
   font-style: normal;
   color: #1f2e55;
-  margin: 45px 48px 0px 48px;
 }
 
 p {
@@ -143,11 +142,58 @@ p {
   color: #717fa6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 375px) {
+  h2 {
+    font-size: 22px;
+    margin: 32px 32px 8px 32px;
   }
-  to {
-    transform: rotate(360deg);
+  p {
+    font-size: 15px;
+    margin: 8px 32px 12px 32px;
+  }
+  .background {
+    position: absolute;
+    width: 639.27px;
+    height: 194px;
+    left: -131.81px;
+    top: 0px;
+  }
+  .button {
+    width: 279px;
+    height: 50px;
+    margin: 12px 24px 24px 24px;
+  }
+  .card {
+    width: 327px;
+    height: 567px;
+  }
+  .hero {
+    width: 327px;
+    height: 160px;
+  }
+  .planBackground {
+    width: 279px;
+    height: 81px;
+    margin: 12px 24px 12px 24px;
+  }
+  .planFlex {
+    width: 247px;
+    height: 48px;
+    top: 17px;
+    left: 16px;
+  }
+  .planFlexLeft {
+    width: 149px;
+  }
+  .planHeader {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .planLink {
+    font-size: 13px;
+  }
+  .planSubtitle {
+    font-size: 14px;
+    line-height: 19px;
   }
 }
