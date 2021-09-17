@@ -15,7 +15,6 @@ h2 {
   font-weight: 900;
   font-style: normal;
   color: #1f2e55;
-  margin: 45px 48px 0px 48px;
 }
 
 p {
@@ -151,6 +150,13 @@ p {
   p {
     font-size: 15px;
     margin: 8px 32px 12px 32px;
+  }
+  .background {
+    position: absolute;
+    width: 639.27px;
+    height: 194px;
+    left: -131.81px;
+    top: 0px;
   }
   .button {
     width: 279px;
